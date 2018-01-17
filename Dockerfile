@@ -1,4 +1,4 @@
-FROM daocloud.io/python:2.7
+FROM  daocloud.io/jaye_daocloud/python3-sample-base-image
 ADD requirements.txt /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 RUN mkdir /code
